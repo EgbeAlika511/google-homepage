@@ -1,0 +1,1 @@
+From the Odin Project's curriculum, i have acquired so many skills such as Git and Github knowledge, HTML5, CSS and JavaScript basics, how to use the Developer's tool as well as to work with the command line. I feel so proud of myself right now... A big shout out to the Odin' Project

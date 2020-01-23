@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My google-homepage</title>
+    <style>
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        li {
+            float: right;
+        }
+        li a {
+            display: block;
+            padding: 10px 10px;
+            text-decoration: none;
+            color: black;
+        }
+        li a:hover {
+            text-decoration: underline;
+        }
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: auto;
+            padding-top: 10%;
+        }
+        input[type=text] {
+            padding: 14px 10px;
+            width: 40%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 50px;
+        }
+        input[type=submit] {
+            padding: 12px 12px;
+            margin:50px;
+            width: auto;
+        }
+        #first-button {
+            border: none;
+            border-radius: 3px;
+            background-color: rgb(235, 238, 243);
+            color: rgb(126, 122, 122);
+            margin-left: 40%;
+        }
+        #second-button {
+            border: none;
+            border-radius: 3px;
+            background-color: rgb(235, 238, 243);
+            color: rgb(126, 122, 122);            
+        }
+        h4 {
+            text-align: center;
+        }
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: rgb(237, 239, 250);
+            color: black;
+            float: left;
+        }
+        #footer-nav {
+            float: left;
+            color: rgba(112, 116, 117, 0.973);
+            text-decoration: none;
+            display: block;
+            padding: 14px 14px;
+            margin-left: 15px;
+        }
+        #footer-nav:hover {
+            text-decoration: underline;
+        }
+    </style>
+    </head>
+<body> 
+    <div class="navbar">
+        <ul>
+            <li><a href="https://mail.google.com/mail/u/0/?tab=wm&ogbl#inbox">Gmail</a></li>
+            <li><a href="https://www.google.cm/imghp?hl=fr&tab=wi&authuser=0&ogbl">Imagery</a></li>
+          </ul>
+    </div>
+    <div class="content">
+    <span class="main" id="body">
+        <div id="google_logo">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
+        </div>
+        <div class="search_form">
+            <form>
+                <input type="text" title="search" name="search">
+            </form>
+        </div>
+        <div class="buttons">
+            <input id="first-button" value="Google Search" aria-label="Google Search" type="submit" name="btn1">
+            <input id="second-button" value="I am Feeling Lucky" aria-label="I am Feeling Lucky" type="submit" name="btn2">
+        </div>
+        <div id="fecfa">
+            <h4>Google offered in <a href="https://www.google.com/setprefs?sig=0_zGUutDDn1FRW8ca1rzRnt8eoD4Y%3D&hl=fr&source=homepage&sa=X&ved=0ahUKEwj7zfmQipXnAhWzAWMBHUWgCssQ2ZgBCA4">Francais</a></h4>
+        </div>
+    </span>
+    </div>
+
+    <div class="footer">
+          <a id="footer-nav" href="https://ads.google.com/intl/fr_cm/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+          <a id="footer-nav" href="https://www.google.cm/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Company</a>
+          <a id="footer-nav" href="https://about.google/?utm_source=google-CM&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a>
+          <a id="footer-nav" href="https://www.google.com/search/howsearchworks/?fg=1">How does Google search work?</a>
+    </div>
+</body>    
+</html>
